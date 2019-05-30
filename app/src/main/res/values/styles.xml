@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="redButtons" parent="AppTheme">
+        <item name="android:background">@android:color/holo_red_light</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:fontFamily">@font/candal</item>
+    </style>
+
+    <style name="blackTextViews" parent="AppTheme">
+        <item name="android:background">#000000</item>
+        <item name="android:fontFamily">@font/candal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="grayButtons" parent="AppTheme">
+        <item name="android:background">#aaa</item>
+        <item name="android:fontFamily">@font/candal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+</resources>

@@ -1,0 +1,202 @@
+{
+  "legends": [
+    {
+      "name": "Caustic",
+      "realname": "Alexander Nox",
+      "gender": "male",
+      "age": "48",
+      "imageurl": "@drawable/caustic_legend.jpg",
+      "tact": {
+        "name": "Nox Gas Trap",
+        "duration": "D: 20",
+        "desc": "Drop Canisters that release deadly Nox gas when shot or triggered by enemies"
+      },
+      "pass": {
+        "name": "Nox Vision",
+        "duration": "N/A",
+        "desc": "Allows you to see enemies through Nox gas"
+      },
+      "ult": {
+        "name": "Nox Gas Grenade",
+        "charge": "120",
+        "desc": "Blankets a large area in Nox gas"
+      }
+    },
+    {
+      "name": "Mirage",
+      "realname": "Elliot Witt",
+      "gender": "male",
+      "age": "30",
+      "iamgeurl": "@drawable/mirage_legend.jpg",
+      "tact": {
+        "name": "Pysche Out",
+        "duration": "D: 15",
+        "desc": "Send out a holographic decoy to confuse the enemy"
+      },
+      "pass": {
+        "name": "Encore!",
+        "duration": "N/A",
+        "desc": "Automatically drop a decoy and cloak for five seconds when knocked down"
+      },
+      "ult": {
+        "name": "Vanishing Act",
+        "charge": "150",
+        "desc": "Deploy a team of Decoys to distract enemies while you cloak"
+      }
+    },
+    {
+      "name": "Pathfinder",
+      "realname": "MRVN",
+      "gender": "UNKNOWN",
+      "age": "30",
+      "imageurl": "@drawable/pathfinder_legend.jpg",
+      "tact": {
+        "name": "Grappling Hook",
+        "duration": "D: 13",
+        "desc": "Grapple to get to out-of-reach places quickly"
+      },
+      "pass": {
+        "name": "Insider Knowledge",
+        "duration": "N/A",
+        "desc": "Scan a survey beacon to reveal the ring's next location"
+      },
+      "ult": {
+        "name": "Zipline Gun",
+        "charge": "90",
+        "desc": "Create a zipline for everyone to use"
+      }
+    },
+    {
+      "name": "Wraith",
+      "realname": "REDACTED",
+      "gender": "Female",
+      "age": "REDACTED",
+      "imageurl": "@drawable/wraith_legend.jpg",
+      "tact": {
+        "name": "Into the Void",
+        "duration": "CD: 25",
+        "desc": "Reposition quickly through the safety of void space, avoiding all damage"
+      },
+      "pass": {
+        "name": "Voices From The Void",
+        "duration": "N/A",
+        "desc": "A voice warns you when danger approaches. As far as you can tell, it's on your side"
+      },
+      "ult": {
+        "name": "Dimensional Rift",
+        "charge": "150",
+        "desc": "Link two locations with portals for 60 seconds, allowing anyone to use them"
+      }
+    },
+    {
+      "name": "Octane",
+      "realname": "Octavio Silva",
+      "gender": "Male",
+      "age": "24",
+      "imageurl": "@drawable/octane_legend.jpg",
+      "tact": {
+        "name": "Stim",
+        "duration": "CD: 2",
+        "desc": "Move 30% faster for six seconds. Costs health to use"
+      },
+      "pass": {
+        "name": "Swift Mend",
+        "duration": "N/A",
+        "desc": "Automatically restores health over time"
+      },
+      "ult": {
+        "name": "Launch Pad",
+        "charge": "150",
+        "desc": "Deploy a jump pad that catapults teammates through the air"
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "realname": "UNKNOWN",
+      "gender": "Non-Binary",
+      "age": "UNKNOWN",
+      "imageurl": "@drawable/bloodhound_legend.jpg",
+      "tact": {
+        "name": "Eye of the Allfather",
+        "duration": "CD: 35",
+        "desc": "Briefly reveal hidden enemies, traps, and clues throughout structures ahead of you"
+      },
+      "pass": {
+        "name": "Tracker",
+        "duration": "N/A",
+        "desc": "See tracks left behind by your foes"
+      },
+      "ult": {
+        "name": "Beast of the Hunt",
+        "charge": "180",
+        "desc": "Enhances your senses, allowing you to move faster and highlighting your prey"
+      }
+    },
+    {
+      "name": "Bangalore",
+      "realname": "Anita Williams",
+      "gender": "Female",
+      "imageurl": "@drawable/bangalore_legend.jpg",
+      "age": "35",
+      "tact": {
+        "name": "Smoke Launcher",
+        "duration": "CD: 33",
+        "desc": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact"
+      },
+      "pass": {
+        "name": "Double Time",
+        "duration": "N/A",
+        "desc": "Taking fire while sprinting makes you move faster for a brief time"
+      },
+      "ult": {
+        "name": "Rolling Thunder",
+        "charge": "270",
+        "desc": "Call in an artillery strike that slowly creeps across the landscape"
+      }
+    },
+    {
+      "name": "Lifeline",
+      "realname": "Ajay Che",
+      "gender": "Female",
+      "age": "24",
+      "imageurl": "@drawable/lifeline_legend.jpg",
+      "tact": {
+        "name": "D.O.C. Heal Drone",
+        "duration": "CD: 60",
+        "desc": "Call your Drone of Compassion to automatically heal nearby players over time"
+      },
+      "pass": {
+        "name": "Combat Medic",
+        "duration": "N/A",
+        "desc": "Revive knocked down teammates faster while protected by a shield wall. Healing items are used 25% faster"
+      },
+      "ult": {
+        "name": "Care Package",
+        "charge": "360",
+        "desc": "Call in a drop pod with a combination of 3 high-quality attachments, consumables, and/or gear"
+      }
+    },
+    {
+      "name": "Gibraltar",
+      "realname": "Makoa Gibraltar",
+      "gender": "Male",
+      "age": "30",
+      "imageurl": "@drawable/gibraltar_legend.jpg",
+      "tact": {
+        "name": "Dome of Protection",
+        "duration": "CD: 20",
+        "desc": "Throw down a dome-shield that blocks attacks for 15 seconds"
+      },
+      "pass": {
+        "name": "Gun Shield",
+        "duration": "N/A",
+        "desc": "Aiming down sights deploys a gun shield that blocks incoming fire"
+      },
+      "ult": {
+        "name": "Defensive Bombardment",
+        "charge": "270",
+        "desc": "Call in a concentrated mortar strike on a marked position"
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "guns":
+  [
+    {
+      "name": "Kraber .50 Caliber",
+      "ammo": "heavy",
+      "ammotype": "special",
+      "guntype": "sniper",
+      "stock": "none",
+      "imgurl":"kraber50cal_sniper"
+    },
+    {
+      "name": "Longbow DMR",
+      "ammotype": "normal",
+      "ammo": "heavy",
+      "guntype": "sniper",
+      "stock": "sniper",
+      "imgurl":"longbow"
+    },
+    {
+      "name": "G7 Scout",
+      "ammotype": "normal",
+      "ammo": "light",
+      "guntype": "sniper",
+      "stock": "sniper",
+      "imgurl":"g7scout_sniper"
+    },
+    {
+      "name": "Triple Take",
+      "ammotype": "normal",
+      "ammo": "light",
+      "guntype": "sniper",
+      "stock": "sniper",
+      "imgurl":"tripletake_sniper"
+    },
+    {
+      "name": "Hemlok Burst Assault Rifle",
+      "ammotype": "normal",
+      "ammo": "heavy",
+      "guntype": "AR",
+      "stock": "standard",
+      "imgurl":"hemlokburst_ar"
+    },
+    {
+      "name": "R-301 Carbine",
+      "ammotype": "normal",
+      "ammo": "light",
+      "guntype": "AR",
+      "stock": "standard",
+      "imgurl":"r301carbine_ar"
+    },
+    {
+      "name": "VK-47 Flatline",
+      "ammotype": "normal",
+      "ammo": "heavy",
+      "guntype": "AR",
+      "stock": "standard",
+      "imgurl":"vk47flatline_ar"
+    },
+    {
+      "name": "Havoc",
+      "ammotype": "normal",
+      "ammo": "energy",
+      "guntype": "AR",
+      "stock": "standard",
+      "imgurl":"havocrifle_ar"
+    },
+    {
+      "name": "M-600 Spitfire",
+      "ammotype": "normal",
+      "ammo": "energy",
+      "guntype": "LMG",
+      "stock": "standard",
+      "imgurl":"m600spitfire_lmg"
+    },
+    {
+      "name": "Devotion",
+      "ammotype": "normal",
+      "ammo": "heavy",
+      "guntype": "LMG",
+      "stock": "standard",
+      "imgurl":"devotion_lmg"
+    },
+    {
+      "name": "R-99",
+      "ammotype": "normal",
+      "ammo": "light",
+      "guntype": "smg",
+      "stock": "standard",
+      "imgurl":"r99_smg"
+    },
+    {
+      "name": "Prowler Burst PDW",
+      "ammotype": "normal",
+      "ammo": "heavy",
+      "guntype": "smg",
+      "stock": "standard",
+      "imgurl":"prowlerburstpdw_smg"
+    },
+    {
+      "name": "Alternator",
+      "ammotype": "normal",
+      "ammo": "light",
+      "guntype": "smg",
+      "stock": "standard",
+      "imgurl":"alternator_smg"
+    },
+    {
+      "name": "Mastiff",
+      "ammotype": "special",
+      "ammo": "shells",
+      "guntype": "shotgun",
+      "stock": "none",
+      "imgurl":"mastiff_shotgun"
+    },
+    {
+      "name": "EVA-8 Auto",
+      "ammotype": "normal",
+      "ammo": "shells",
+      "guntype": "shotgun",
+      "stock": "none",
+      "imgurl":"eva8auto_shotgun"
+    },
+    {
+      "name": "Peacekeeper",
+      "ammotype": "normal",
+      "ammo": "shells",
+      "guntype": "shotgun",
+      "stock": "none",
+      "imgurl":"peacekeeper_shotgun"
+    },
+    {
+      "name": "Mozambique",
+      "ammotype": "normal",
+      "ammo": "shells",
+      "guntype": "shotgun",
+      "stock": "none",
+      "imgurl":"mozambique_shotgun"
+    },
+    {
+      "name": "Wingman",
+      "ammotype": "normal",
+      "ammo": "heavy",
+      "guntype": "pistol",
+      "stock": "none",
+      "imgurl":"wingman_pistol"
+    },
+    {
+      "name": "RE-45 Auto",
+      "ammotype": "normal",
+      "ammo": "light",
+      "guntype": "pistol",
+      "stock": "none",
+      "imgurl":"re45auto_pistol"
+    },
+    {
+      "name": "P2020",
+      "ammotype": "normal",
+      "ammo": "light",
+      "guntype": "pistol",
+      "stock": "none",
+      "imgurl":"p2020_pistol"
+    }
+  ]
+}
