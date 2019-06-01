@@ -65,13 +65,20 @@ public class IndividualGunActivity extends AppCompatActivity {
         Intent intent = getIntent();
         value = intent.getStringExtra("value");
         valuee = Integer.parseInt(value);
+        Log.d(HEHE, "onCreate: " + valuee);
+        Log.d(HEHE, "onCreateTwo: " + gunArray.length);
 
-        for (int i = 0; i == gunArray.length - 1; i++)
-        {
-            if (i == valuee) {
-                gun = gunArray[i];
-            }
-        }
+        gun = gunArray[valuee];
+
+//        for (int i = 0; i == gunArray.length - 1; i++)
+//        {
+//            if (i == valuee) {
+//                Log.d(HEHE, "onSetI: " + i);
+//                gun = gunArray[i];
+//                Log.d(HEHE, "onSetGun: " + gun.toString());
+//            }
+//        }
+
         Log.d(HEHE, gun.getName());
         setGunPage();
     }
@@ -95,10 +102,15 @@ public class IndividualGunActivity extends AppCompatActivity {
 
     private void setGunPage() {
         gunName.setText(gun.getName());
-        gunTypeDesc.setText(gun.getGunType());
-        ammo.setText(gun.getAmmo());
-        ammoType.setText(gun.getAmmotype());
-        stock.setText(gun.getStock());
+        if (gun.getGunType().equals("AR")) {gunTypeDesc.setText("Assault Rifle");}
+        else if (gun.getGunType().equals("sniper")) {gunTypeDesc.setText("Sniper Rifle");}
+        else if (gun.getGunType().equals("pistol")) {gunTypeDesc.setText("Pistol");}
+        else if (gun.getGunType().equals("smg")) {gunTypeDesc.setText("SMG");}
+        else if (gun.getGunType().equals("LMG")) {gunTypeDesc.setText("LMG");}
+        else if (gun.getGunType().equals("shotgun")) {gunTypeDesc.setText("Shotgun");}
+        ammoDesc.setText(gun.getAmmo());
+        ammoTypeDesc.setText(gun.getAmmotype());
+        stockDesc.setText(gun.getStock());
 
         String name = gun.getImgurl();
         int id = getResources().getIdentifier(name, "drawable", getPackageName());

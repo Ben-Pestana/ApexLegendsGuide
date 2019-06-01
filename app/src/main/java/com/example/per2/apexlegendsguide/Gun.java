@@ -5,15 +5,15 @@ public class Gun {
     private String name;
     private String ammotype;
     private String ammo;
-    private String gunType;
+    private String guntype;
     private String imgurl;
     private String stock;
 
-    public Gun(String name, String ammotype, String ammo, String gunType, String imgurl, String stock) {
+    public Gun(String name, String ammotype, String ammo, String guntype, String imgurl, String stock) {
         this.name = name;
         this.ammotype = ammotype;
         this.ammo = ammo;
-        this.gunType = gunType;
+        this.guntype = guntype;
         this.imgurl = imgurl;
         this.stock = stock;
     }
@@ -43,11 +43,11 @@ public class Gun {
     }
 
     public String getGunType() {
-        return gunType;
+        return guntype;
     }
 
     public void setGunType(String gunType) {
-        this.gunType = gunType;
+        this.guntype = gunType;
     }
 
     public String getImgurl() {
@@ -72,7 +72,7 @@ public class Gun {
                 "name='" + name + '\'' +
                 ", ammotype='" + ammotype + '\'' +
                 ", ammo='" + ammo + '\'' +
-                ", gunType='" + gunType + '\'' +
+                ", gunType='" + guntype + '\'' +
                 ", imgurl='" + imgurl + '\'' +
                 ", stock='" + stock + '\'' +
                 '}';
