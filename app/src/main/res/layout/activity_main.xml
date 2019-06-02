@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="@android:color/darker_gray"
+    android:background="@android:color/darker_gray"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
@@ -24,27 +24,91 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ListView
-        android:id="@+id/listView_main_mainListView"
-        android:layout_width="0dp"
-        android:layout_height="367dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
+    <ImageButton
+        android:id="@+id/imageButton_main_legendbutton"
+        android:layout_width="168dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_legendtext"
+        app:srcCompat="@drawable/bangalore_legend" />
+
+    <TextView
+        android:id="@+id/textView_main_legendtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/holo_red_light"
+        android:fontFamily="@font/candal"
+        android:padding="5dp"
+        android:text="Legends"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_main_welcome" />
 
+    <TextView
+        android:id="@+id/textView_main_gunText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/holo_red_light"
+        android:fontFamily="@font/candal"
+        android:padding="5dp"
+        android:text="Guns"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView_main_legendtext"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_welcome" />
+
+    <TextView
+        android:id="@+id/textView_main_ammoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/holo_red_light"
+        android:fontFamily="@font/candal"
+        android:padding="5dp"
+        android:text="Ammo"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView_main_gunText"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_welcome" />
+
+    <ImageButton
+        android:id="@+id/imageButton_main_gunButton"
+        android:layout_width="168dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_main_legendbutton"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_gunText"
+        app:srcCompat="@drawable/mozambiquevertical" />
+
+    <ImageButton
+        android:id="@+id/imageButton_main_ammoButton"
+        android:layout_width="168dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_main_gunButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_ammoText"
+        app:srcCompat="@drawable/ammodefaultmain" />
+
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView_main_map"
+        android:layout_width="578dp"
+        android:layout_height="329dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listView_main_mainListView"
-        app:srcCompat="@drawable/whysosadpath" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_main_gunButton"
+        app:srcCompat="@drawable/apexmapsecond" />
 
 </android.support.constraint.ConstraintLayout>
